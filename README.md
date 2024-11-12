@@ -286,31 +286,41 @@ for epoch in range(num_epochs):
 ```
 ## 训练结果
 ```bash
- Epoch [1/15], Loss: 0.4863, Accuracy: 0.8263, Time: 55.72 seconds 
- Epoch [2/15], Loss: 0.2384, Accuracy: 0.9143, Time: 54.92 seconds
- Epoch [3/15], Loss: 0.1846, Accuracy: 0.9353, Time: 51.36 seconds
- Epoch [4/15], Loss: 0.1927, Accuracy: 0.9304, Time: 52.49 seconds
- Epoch [5/15], Loss: 0.2004, Accuracy: 0.9371, Time: 67.36 seconds
- Epoch [6/15], Loss: 0.1640, Accuracy: 0.9469, Time: 58.94 seconds
- Epoch [7/15], Loss: 0.1345, Accuracy: 0.9558, Time: 60.78 seconds
- Epoch [8/15], Loss: 0.1490, Accuracy: 0.9527, Time: 61.51 seconds
- Epoch [9/15], Loss: 0.1305, Accuracy: 0.9567, Time: 60.13 seconds
- Epoch [10/15], Loss: 0.1263, Accuracy: 0.9549, Time: 58.83 seconds
- Epoch [11/15], Loss: 0.1160, Accuracy: 0.9563, Time: 58.71 seconds
- Epoch [12/15], Loss: 0.0994, Accuracy: 0.9750, Time: 59.63 seconds
- Epoch [13/15], Loss: 0.1029, Accuracy: 0.9701, Time: 62.57 seconds
- Epoch [14/15], Loss: 0.0788, Accuracy: 0.9763, Time: 64.47 seconds
- Epoch [15/15], Loss: 0.0659, Accuracy: 0.9804, Time: 67.60 seconds
- 训练完成！
-               precision    recall  f1-score   support
+Epoch [1/25], Loss: 0.5185, Accuracy: 0.8210, Pseudo-label Ratio: 0.5103, Time: 61.26 seconds
+Epoch [2/25], Loss: 0.2798, Accuracy: 0.8987, Pseudo-label Ratio: 0.6371, Time: 70.36 seconds
+Epoch [3/25], Loss: 0.2168, Accuracy: 0.9228, Pseudo-label Ratio: 0.7027, Time: 70.41 seconds
+Epoch [4/25], Loss: 0.2119, Accuracy: 0.9205, Pseudo-label Ratio: 0.7156, Time: 65.99 seconds
+Epoch [5/25], Loss: 0.1624, Accuracy: 0.9411, Pseudo-label Ratio: 0.7790, Time: 56.80 seconds
+Epoch [6/25], Loss: 0.1524, Accuracy: 0.9527, Pseudo-label Ratio: 0.7830, Time: 55.66 seconds
+Epoch [7/25], Loss: 0.1162, Accuracy: 0.9594, Pseudo-label Ratio: 0.8063, Time: 56.49 seconds
+Epoch [8/25], Loss: 0.1065, Accuracy: 0.9661, Pseudo-label Ratio: 0.8406, Time: 59.77 seconds
+Epoch [9/25], Loss: 0.1097, Accuracy: 0.9661, Pseudo-label Ratio: 0.8455, Time: 60.22 seconds
+Epoch [10/25], Loss: 0.1310, Accuracy: 0.9580, Pseudo-label Ratio: 0.7929, Time: 55.76 seconds
+Epoch [11/25], Loss: 0.1296, Accuracy: 0.9531, Pseudo-label Ratio: 0.8379, Time: 56.50 seconds
+Epoch [12/25], Loss: 0.1322, Accuracy: 0.9567, Pseudo-label Ratio: 0.8330, Time: 56.81 seconds
+Epoch [13/25], Loss: 0.0948, Accuracy: 0.9750, Pseudo-label Ratio: 0.8228, Time: 60.36 seconds
+Epoch [14/25], Loss: 0.0772, Accuracy: 0.9804, Pseudo-label Ratio: 0.8527, Time: 57.05 seconds
+Epoch [15/25], Loss: 0.0842, Accuracy: 0.9759, Pseudo-label Ratio: 0.8866, Time: 56.65 seconds
+Epoch [16/25], Loss: 0.0658, Accuracy: 0.9835, Pseudo-label Ratio: 0.8629, Time: 56.45 seconds
+Epoch [17/25], Loss: 0.0652, Accuracy: 0.9826, Pseudo-label Ratio: 0.8768, Time: 57.66 seconds
+Epoch [18/25], Loss: 0.0644, Accuracy: 0.9862, Pseudo-label Ratio: 0.8866, Time: 56.47 seconds
+Epoch [19/25], Loss: 0.0686, Accuracy: 0.9808, Pseudo-label Ratio: 0.8634, Time: 56.53 seconds
+Epoch [20/25], Loss: 0.0712, Accuracy: 0.9821, Pseudo-label Ratio: 0.8857, Time: 56.76 seconds
+Epoch [21/25], Loss: 0.0474, Accuracy: 0.9888, Pseudo-label Ratio: 0.8857, Time: 56.47 seconds
+Epoch [22/25], Loss: 0.0468, Accuracy: 0.9906, Pseudo-label Ratio: 0.8991, Time: 56.66 seconds
+Epoch [23/25], Loss: 0.0788, Accuracy: 0.9799, Pseudo-label Ratio: 0.8955, Time: 56.66 seconds
+Epoch [24/25], Loss: 0.0635, Accuracy: 0.9821, Pseudo-label Ratio: 0.8661, Time: 56.86 seconds
+Epoch [25/25], Loss: 0.0457, Accuracy: 0.9906, Pseudo-label Ratio: 0.8884, Time: 55.89 seconds
+训练完成！
+              precision    recall  f1-score   support
 
-       GALAXY       0.98      0.99      0.98       733
-          QSO       0.99      1.00      1.00      1139
-         STAR       1.00      0.93      0.96       368
+      GALAXY       1.00      0.99      1.00       727
+         QSO       0.99      1.00      1.00      1146
+        STAR       1.00      0.98      0.99       367
 
-     accuracy                           0.99      2240
-    macro avg       0.99      0.97      0.98      2240
- weighted avg       0.98      0.98      0.98      2240
+    accuracy                           1.00      2240
+   macro avg       1.00      0.99      0.99      2240
+weighted avg       1.00      1.00      1.00      2240
 ```
 
 
