@@ -286,32 +286,6 @@ for epoch in range(num_epochs):
 ```
 ## 训练结果
 ```bash
-Epoch [1/25], Loss: 0.5185, Accuracy: 0.8210, Pseudo-label Ratio: 0.5103, Time: 61.26 seconds
-Epoch [2/25], Loss: 0.2798, Accuracy: 0.8987, Pseudo-label Ratio: 0.6371, Time: 70.36 seconds
-Epoch [3/25], Loss: 0.2168, Accuracy: 0.9228, Pseudo-label Ratio: 0.7027, Time: 70.41 seconds
-Epoch [4/25], Loss: 0.2119, Accuracy: 0.9205, Pseudo-label Ratio: 0.7156, Time: 65.99 seconds
-Epoch [5/25], Loss: 0.1624, Accuracy: 0.9411, Pseudo-label Ratio: 0.7790, Time: 56.80 seconds
-Epoch [6/25], Loss: 0.1524, Accuracy: 0.9527, Pseudo-label Ratio: 0.7830, Time: 55.66 seconds
-Epoch [7/25], Loss: 0.1162, Accuracy: 0.9594, Pseudo-label Ratio: 0.8063, Time: 56.49 seconds
-Epoch [8/25], Loss: 0.1065, Accuracy: 0.9661, Pseudo-label Ratio: 0.8406, Time: 59.77 seconds
-Epoch [9/25], Loss: 0.1097, Accuracy: 0.9661, Pseudo-label Ratio: 0.8455, Time: 60.22 seconds
-Epoch [10/25], Loss: 0.1310, Accuracy: 0.9580, Pseudo-label Ratio: 0.7929, Time: 55.76 seconds
-Epoch [11/25], Loss: 0.1296, Accuracy: 0.9531, Pseudo-label Ratio: 0.8379, Time: 56.50 seconds
-Epoch [12/25], Loss: 0.1322, Accuracy: 0.9567, Pseudo-label Ratio: 0.8330, Time: 56.81 seconds
-Epoch [13/25], Loss: 0.0948, Accuracy: 0.9750, Pseudo-label Ratio: 0.8228, Time: 60.36 seconds
-Epoch [14/25], Loss: 0.0772, Accuracy: 0.9804, Pseudo-label Ratio: 0.8527, Time: 57.05 seconds
-Epoch [15/25], Loss: 0.0842, Accuracy: 0.9759, Pseudo-label Ratio: 0.8866, Time: 56.65 seconds
-Epoch [16/25], Loss: 0.0658, Accuracy: 0.9835, Pseudo-label Ratio: 0.8629, Time: 56.45 seconds
-Epoch [17/25], Loss: 0.0652, Accuracy: 0.9826, Pseudo-label Ratio: 0.8768, Time: 57.66 seconds
-Epoch [18/25], Loss: 0.0644, Accuracy: 0.9862, Pseudo-label Ratio: 0.8866, Time: 56.47 seconds
-Epoch [19/25], Loss: 0.0686, Accuracy: 0.9808, Pseudo-label Ratio: 0.8634, Time: 56.53 seconds
-Epoch [20/25], Loss: 0.0712, Accuracy: 0.9821, Pseudo-label Ratio: 0.8857, Time: 56.76 seconds
-Epoch [21/25], Loss: 0.0474, Accuracy: 0.9888, Pseudo-label Ratio: 0.8857, Time: 56.47 seconds
-Epoch [22/25], Loss: 0.0468, Accuracy: 0.9906, Pseudo-label Ratio: 0.8991, Time: 56.66 seconds
-Epoch [23/25], Loss: 0.0788, Accuracy: 0.9799, Pseudo-label Ratio: 0.8955, Time: 56.66 seconds
-Epoch [24/25], Loss: 0.0635, Accuracy: 0.9821, Pseudo-label Ratio: 0.8661, Time: 56.86 seconds
-Epoch [25/25], Loss: 0.0457, Accuracy: 0.9906, Pseudo-label Ratio: 0.8884, Time: 55.89 seconds
-训练完成！
               precision    recall  f1-score   support
 
       GALAXY       1.00      0.99      1.00       727
@@ -321,6 +295,21 @@ Epoch [25/25], Loss: 0.0457, Accuracy: 0.9906, Pseudo-label Ratio: 0.8884, Time:
     accuracy                           1.00      2240
    macro avg       1.00      0.99      0.99      2240
 weighted avg       1.00      1.00      1.00      2240
+
+              precision    recall  f1-score   support
+
+          A0       1.00      0.81      0.89      1821
+          B6       0.98      0.97      0.97       490
+          F5       0.97      0.51      0.67      1910
+          G2       0.96      0.98      0.97      2016
+          K5       1.00      1.00      1.00      2014
+          L0       0.96      0.90      0.92        62
+          M2       1.00      0.99      0.99      1947
+          OB       0.99      0.99      0.99      1049
+
+    accuracy                           0.99     11309
+   macro avg       0.84      0.78      0.80     11309
+weighted avg       0.97      0.87      0.91     11309
 ```
 
 
